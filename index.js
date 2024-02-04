@@ -4,11 +4,20 @@ return word === word.split('').reverse().join('')
 }
 
 /* 
-  Add your pseudocode here
+  Take in a string or word
+
+  Logic to compare forward word to reversed word.
+  Need a way to reverse the word.
+  return either true or false.
+
 */
 
 /*
-  Add written explanation of your solution here
+  Split the word into it's individual components in an array.
+  Reverse the order of components.
+  Join them back into one word.
+  Compare results.
+  Return true or false.
 */
 
 // You can run `node index.js` to view these console logs
